@@ -6,7 +6,7 @@ export default function Maintenance() {
   return (
     <div>
       <PageHeader
-        eyebrow="Module 07"
+        eyebrow="Module 08"
         title="Maintenance"
         description="Bands are consumables, but the rest of your setup can last for years with a five-minute check before and after each session."
         accent="cyan"

@@ -42,7 +42,7 @@ export default function Glossary() {
   return (
     <div>
       <PageHeader
-        eyebrow="Module 08"
+        eyebrow="Module 09"
         title="Glossary"
         description="Slingshot jargon, decoded. Search or scan the full list below."
         accent="magenta"

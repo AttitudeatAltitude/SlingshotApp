@@ -6,7 +6,7 @@ export default function Safety() {
   return (
     <div>
       <PageHeader
-        eyebrow="Module 06"
+        eyebrow="Module 07"
         title="Safety"
         description="A slingshot is a projectile weapon capable of serious injury. These rules aren't optional flavor text — treat them the same way you'd treat firearm safety rules."
         accent="amber"

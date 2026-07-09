@@ -6,6 +6,7 @@ import BandCutting from './pages/BandCutting'
 import StanceGrip from './pages/StanceGrip'
 import AimingRelease from './pages/AimingRelease'
 import Ammo from './pages/Ammo'
+import Ballistics from './pages/Ballistics'
 import Safety from './pages/Safety'
 import Maintenance from './pages/Maintenance'
 import Glossary from './pages/Glossary'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/stance-grip" element={<StanceGrip />} />
           <Route path="/aiming-release" element={<AimingRelease />} />
           <Route path="/ammo" element={<Ammo />} />
+          <Route path="/ballistics" element={<Ballistics />} />
           <Route path="/safety" element={<Safety />} />
           <Route path="/maintenance" element={<Maintenance />} />
           <Route path="/glossary" element={<Glossary />} />

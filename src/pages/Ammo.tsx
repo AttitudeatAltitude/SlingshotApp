@@ -96,6 +96,16 @@ export default function Ammo() {
             surface friction over time.
           </p>
         </HudPanel>
+
+        <HudPanel title="What's Next" glyph="D" accent="cyan">
+          <p>
+            Once you know your ammo's mass, head to{' '}
+            <a href="/ballistics" className="text-amber underline">
+              Power &amp; Ballistics
+            </a>{' '}
+            to estimate stored energy and velocity for your setup.
+          </p>
+        </HudPanel>
       </div>
     </div>
   )
