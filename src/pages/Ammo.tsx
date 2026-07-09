@@ -1,6 +1,7 @@
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
+import AmmoMatcher from '../components/calculators/AmmoMatcher'
 
 export default function Ammo() {
   return (
@@ -76,6 +77,8 @@ export default function Ammo() {
             </li>
           </ul>
         </HudPanel>
+
+        <AmmoMatcher />
 
         <Callout kind="warning" title="Check Your Pouch Fit">
           Ammo that's too large for the pouch won't seat securely and can slip

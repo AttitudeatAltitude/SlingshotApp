@@ -1,6 +1,7 @@
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
+import BandCalculator from '../components/calculators/BandCalculator'
 
 export default function BandCutting() {
   return (
@@ -82,6 +83,8 @@ export default function BandCutting() {
             weight; longer active length is gentler on the arm but slower.
           </p>
         </HudPanel>
+
+        <BandCalculator />
 
         <HudPanel title="Cutting a Basic Tapered Set" glyph="D" accent="magenta">
           <ol className="list-decimal space-y-3 pl-5">
