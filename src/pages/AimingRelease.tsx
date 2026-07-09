@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
+import DiagramFrame from '../components/diagrams/DiagramFrame'
+import AnchorPointDiagram from '../components/diagrams/AnchorPointDiagram'
+import AimingMethodsDiagram from '../components/diagrams/AimingMethodsDiagram'
+import ReleaseDiagram from '../components/diagrams/ReleaseDiagram'
 
 export default function AimingRelease() {
   return (
@@ -39,6 +43,10 @@ export default function AimingRelease() {
           </ul>
         </HudPanel>
 
+        <DiagramFrame fig="01" title="Anchor Point Reference" accent="cyan" caption="Approximate locations of the three anchor points described above, side-profile view.">
+          <AnchorPointDiagram />
+        </DiagramFrame>
+
         <HudPanel title="Aiming Methods" glyph="B" accent="magenta">
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="border border-surface-line p-4">
@@ -65,6 +73,10 @@ export default function AimingRelease() {
           </div>
         </HudPanel>
 
+        <DiagramFrame fig="02" title="Instinctive vs. Gap Aiming" accent="magenta" caption="Instinctive aiming uses a direct line of sight; gap aiming holds a fixed reference point at a known offset from the target.">
+          <AimingMethodsDiagram />
+        </DiagramFrame>
+
         <HudPanel title="The Release" glyph="C" accent="amber">
           <ol className="list-decimal space-y-3 pl-5">
             <li>
@@ -85,6 +97,10 @@ export default function AimingRelease() {
             </li>
           </ol>
         </HudPanel>
+
+        <DiagramFrame fig="03" title="Draw, Release & Follow-Through" accent="amber" caption="The shot travels along the draw line and out through the fork gap — the hand stays at anchor after release instead of dropping.">
+          <ReleaseDiagram />
+        </DiagramFrame>
 
         <Callout kind="tip" title="Trainer Drill">
           Practice a "half draw, hold, release" sequence at very short range (3–5m)
