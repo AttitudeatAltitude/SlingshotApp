@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
@@ -82,9 +83,9 @@ export default function Ballistics() {
           Power classes referenced here are informational only. Rules on slingshot power levels,
           hunting use, and legal ammo vary by location — verify local law before relying on any
           estimate for a specific use case. See the{' '}
-          <a href="/safety" className="underline">
+          <Link to="/safety" className="underline">
             Safety
-          </a>{' '}
+          </Link>{' '}
           module for general handling rules.
         </Callout>
       </div>

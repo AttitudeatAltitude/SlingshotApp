@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
@@ -100,9 +101,9 @@ export default function Ammo() {
         <HudPanel title="What's Next" glyph="D" accent="cyan">
           <p>
             Once you know your ammo's mass, head to{' '}
-            <a href="/ballistics" className="text-amber underline">
+            <Link to="/ballistics" className="text-amber underline">
               Power &amp; Ballistics
-            </a>{' '}
+            </Link>{' '}
             to estimate stored energy and velocity for your setup.
           </p>
         </HudPanel>

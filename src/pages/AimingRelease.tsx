@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
@@ -95,7 +96,7 @@ export default function AimingRelease() {
         <Callout kind="danger" title="Never Dry-Fire With Ammo Half-Drawn Toward People">
           Always know what's behind and around your target, and never draw or
           release toward a person, pet, or anything you're not willing to hit.
-          See the full <a href="/safety" className="underline">Safety module</a>.
+          See the full <Link to="/safety" className="underline">Safety module</Link>.
         </Callout>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
@@ -95,9 +96,9 @@ export default function GettingStarted() {
             <li>
               <strong className="text-ink">Safety gear:</strong> ANSI-rated
               safety glasses, every single time, no exceptions. See the{' '}
-              <a href="/safety" className="text-cyan underline">
+              <Link to="/safety" className="text-cyan underline">
                 Safety
-              </a>{' '}
+              </Link>{' '}
               module before you load your first shot.
             </li>
           </ol>
@@ -112,13 +113,13 @@ export default function GettingStarted() {
         <HudPanel title="What's Next" glyph="D" accent="cyan">
           <p>
             Once your frame is set up, move on to{' '}
-            <a href="/band-cutting" className="text-magenta underline">
+            <Link to="/band-cutting" className="text-magenta underline">
               Band Cutting
-            </a>{' '}
+            </Link>{' '}
             to learn how to build your own band sets, then{' '}
-            <a href="/stance-grip" className="text-cyan underline">
+            <Link to="/stance-grip" className="text-cyan underline">
               Stance &amp; Grip
-            </a>{' '}
+            </Link>{' '}
             to build a repeatable shooting platform.
           </p>
         </HudPanel>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHeader from '../components/PageHeader'
 import HudPanel from '../components/HudPanel'
 import Callout from '../components/Callout'
@@ -42,7 +43,7 @@ export default function Safety() {
             <li>
               <strong className="text-ink">Inspect bands before every session.</strong>{' '}
               A band that snaps mid-draw can whip back at high speed — see the{' '}
-              <a href="/maintenance" className="underline">Maintenance</a>{' '}
+              <Link to="/maintenance" className="underline">Maintenance</Link>{' '}
               module for what to check.
             </li>
             <li>
